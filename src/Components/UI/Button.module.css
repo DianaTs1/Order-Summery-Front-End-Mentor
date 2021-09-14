@@ -1,0 +1,22 @@
+.button {
+	width: 100%;
+	margin: 15px;
+	padding: 15px;
+	outline: none;
+	border-style: none;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.active {
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	box-shadow: 0 10px 15px 0 hsla(245, 75%, 52%, 0.247);
+}
+
+.inactive {
+	color: hsl(224, 23%, 55%);
+	background: white;
+}

@@ -1,0 +1,33 @@
+.summery {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -10;
+	width: 100%;
+	height: 100vh;
+	background-image: url("../photos/pattern-background-desktop.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-wrapper {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 414px) {
+	.summery {
+		background-image: none;
+		justify-content: first baseline;
+		width: auto;
+	}
+	.section-wrapper {
+		align-items: flex-start;
+	}
+}
